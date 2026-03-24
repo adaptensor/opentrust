@@ -29,8 +29,10 @@ export default function Navigation() {
             height={36}
             className="rounded"
           />
-          <span className="font-display text-lg font-bold text-text-primary group-hover:text-brand-gold transition-colors">
-            Open Trust Protocol
+          <span className="font-display text-lg font-bold transition-colors">
+            <span className="text-otp-open">Open</span>{' '}
+            <span className="text-otp-trust">Trust</span>{' '}
+            <span className="text-otp-protocol">Protocol</span>
           </span>
         </Link>
 

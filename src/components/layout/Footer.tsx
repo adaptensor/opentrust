@@ -43,7 +43,9 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-surface-3/30">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-sm text-text-muted">
-              The Open Trust Protocol v1.0 — Created by Adaptensor Inc. Published for everyone.
+              The <span className="text-otp-open">Open</span>{' '}
+              <span className="text-otp-trust">Trust</span>{' '}
+              <span className="text-otp-protocol">Protocol</span> v1.0 — Created by Adaptensor Inc. Published for everyone.
             </p>
             <p className="text-xs text-text-muted">
               No license fee. No certification body. No NDA. Just proof.

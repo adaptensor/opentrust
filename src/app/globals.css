@@ -12,6 +12,11 @@
   --color-text-secondary: #94A3B8;
   --color-text-muted: #64748B;
 
+  /* OTP Wordmark Colors (from tri-color A logo) */
+  --color-otp-open: #2244DD;
+  --color-otp-trust: #00E64D;
+  --color-otp-protocol: #E8C820;
+
   /* OTP Score Colors */
   --color-score-enforced: #22C55E;
   --color-score-implemented: #3B82F6;
