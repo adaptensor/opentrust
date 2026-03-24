@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-gold: #FADC1A;
+  --color-brand-gold-dark: #EDD800;
+  --color-brand-black: #0A0A0A;
+  --color-canvas: #020617;
+  --color-surface-1: #0F172A;
+  --color-surface-2: #1E293B;
+  --color-surface-3: #334155;
+  --color-text-primary: #F1F5F9;
+  --color-text-secondary: #94A3B8;
+  --color-text-muted: #64748B;
+
+  /* OTP Score Colors */
+  --color-score-enforced: #22C55E;
+  --color-score-implemented: #3B82F6;
+  --color-score-partial: #EAB308;
+  --color-score-planned: #F97316;
+  --color-score-missing: #EF4444;
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), system-ui, sans-serif;
+}
+
+:root {
+  --brand-gold: #FADC1A;
+  --brand-gold-dark: #EDD800;
+  --brand-black: #0A0A0A;
+  --canvas: #020617;
+  --surface1: #0F172A;
+  --surface2: #1E293B;
+  --surface3: #334155;
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+}
+
+body {
+  color-scheme: dark;
+  background: var(--canvas);
+  color: var(--text-primary);
+}
+
+/* Gold glow effect for CTAs */
+.gold-glow {
+  box-shadow: 0 0 20px rgba(250, 220, 26, 0.3), 0 0 60px rgba(250, 220, 26, 0.1);
+}
+
+.gold-glow:hover {
+  box-shadow: 0 0 30px rgba(250, 220, 26, 0.4), 0 0 80px rgba(250, 220, 26, 0.15);
+}
+
+/* Score indicator dots */
+.score-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
