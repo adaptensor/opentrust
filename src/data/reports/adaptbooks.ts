@@ -303,7 +303,7 @@ export const adaptbooksReport: ComplianceReport = {
         {
           controlId: '6.5',
           score: 'ENFORCED',
-          evidence: 'Dynamic CORS allowlist restricts origins to production domains: *.adaptensor.com, *.adaptensor.io, *.adaptbooks.io, adaptaero.io. No wildcard (*) in production. Localhost allowed only in development mode. Extensible via CORS_ORIGIN env var for additional domains.',
+          evidence: 'Dynamic CORS allowlist restricts origins to production domains: *.adaptensor.com, *.adaptbooks.io. No wildcard (*) in production. Localhost allowed only in development mode. Extensible via CORS_ORIGIN env var for additional domains. (`.adaptensor.io` was retired 2026-04 and removed from the allowlist in adaptbooks/packages/api/src/index.ts G.5.5 cleanup.)',
         },
         {
           controlId: '6.6',
